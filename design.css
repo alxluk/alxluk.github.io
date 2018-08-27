@@ -1,0 +1,24 @@
+body {
+background: #2C1E41;
+color: #E84A6A;
+font-size: 20px;
+
+}
+
+
+.button{
+ text-decoration:none;
+ text-align:center;
+ padding:11px 32px;
+ border:solid 1px #2c1e41;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius: 4px;
+ font:18px Arial, Helvetica, sans-serif;
+ font-weight:bold;
+ color:#e84a69;
+ background:#2c1e41;
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
