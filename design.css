@@ -4,9 +4,13 @@ color: #E84A6A;
 font-size: 20px;
 
 }
+h1 {
+  color: #E84A6A; /* Цвет заголовка */
+  font-size: 30pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+font-weight: normal; /* Нормальное начертание текста  */}
 
-
-.button{
+button{
  text-decoration:none;
  text-align:center;
  padding:11px 32px;
