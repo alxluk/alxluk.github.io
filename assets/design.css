@@ -13,6 +13,10 @@
     color:#fff
     }
 
+    a {
+        color:#fff;
+        border-bottom:1px solid #fff
+     }
     .center {
         height:90%;
         width:100%;
