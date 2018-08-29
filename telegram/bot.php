@@ -2,9 +2,14 @@
 define('BOT_TOKEN', '626930684:AAEqk2rFSQXVxZLprcr81vTUbPMNVi4ljrM');
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 
+include_once './functions.php';
+
 //принимаем запрос от бота(то что напишет в чате пользователь)
 $content = file_get_contents('php://input');
 //превращаем из json в массив
 $update = json_decode($content, TRUE);
 //получаем id чата
 $chat_id = $update['message']['chat']['id'];
+
+//запись в лог
+teleToLog($update);
